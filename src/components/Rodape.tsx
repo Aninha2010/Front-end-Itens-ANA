@@ -1,6 +1,6 @@
 const Rodape = function() {
     return ( 
-    <footer>
+        <footer>
         <p>Desenvolvido por Ana Julia</p>
     </footer>);
 }
