@@ -5,9 +5,9 @@ type Props = {
     texto: string
 }
 
-const Botao: FunctionComponent<Props> = function(Props) {
+const Botao: FunctionComponent<Props> = function(props) {
     return(
-        <button>Criar</button>
+        <button>{props.texto}</button>
         
     );
 };
